@@ -17,7 +17,6 @@ set background=dark
 color molokai
 set nonumber
 set ruler       " show the cursor position all the time
-set cursorline
 set showcmd     " display incomplete commands
 
 " Allow backgrounding buffers without writing them, and remember marks/undo
@@ -26,8 +25,8 @@ set hidden
 
 "" Whitespace
 set nowrap                        " don't wrap lines
-set tabstop=2                     " a tab is two spaces
-set shiftwidth=2                  " an autoindent (with <<) is two spaces
+set tabstop=4                     " a tab is two spaces
+set shiftwidth=4                  " an autoindent (with <<) is two spaces
 set expandtab                     " use spaces, not tabs
 set list                          " Show invisible characters
 set backspace=indent,eol,start    " backspace through everything in insert mode
